@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background-color: #F7B32B;
+}
+
+h1 {
+  background-color: #F72C25;
+  columns: #F72C25;  
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+}
+
+.container {
+  margin: 2cap;
+}
+
+#strt-btn:hover{
+  opacity: 50%;
+  cursor: pointer;
+  background-color: black;
+}
+#strt-btn {
+  background-color: #FCF6B1;
+  color:#F77028 ;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  display: inline;
+}
+
+#Manthinking{
+  float:right;
+  width:30%;
+  size: 40%;
+  right: 30%;
+}
+
+.rules {
+  font-size:2rem;
+}
+
+.hide {
+  display: none;
+}
+#msg{
+  font-size:2rem; 
+}
+.closing_msgs{
+  font-size: 2rem;
+}
+#submit-btn{
+  box-sizing: content-box;
+}
+
+
