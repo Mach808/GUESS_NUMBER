@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number!!!</title>
+    <link rel="shortcut icon " href="guess_the_numb_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Guess the Number</h1>
+    <div class = "container">
+        <div class="images">
+            <div id="Manthinking">
+                <img src="./ManThinking.avif">
+            </div>
+        </div>
+        <div class="rules">
+        <h2>
+            How to play?
+        </h2>
+        <p>
+            1. Guess the number the computer is thinking.<br>
+            2. The computer will generate a response based on the input and tell if you should go higher or lower.<br>
+            3. The lesser chances you take to guess the number the better grade you will recieve
+        </p>
+        </div>
+        <button id="strt-btn">Start Game</button>
+        <div class="msg_container hide">
+            <p id="msg">The game is about to begin!<br>
+                Computer has thought of a whole number between 0 to 100.<br>
+                <label for="quantity">Enter a number:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="100" step="1">
+                <button id="submit-btn">Submit</button>
+            </p>
+        </div>
+        <div>
+            <p class="closing_msgs hide">Congratulations, You guessed the number  in</p>
+        
+        </div>
+        
+
+
+    </div>
+</body>
+<script src = "app.js" ></script>
+</html>
